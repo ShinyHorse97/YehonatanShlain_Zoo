@@ -45,14 +45,17 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="Bird.cs" />
+    <Compile Include="Boxer.cs" />
     <Compile Include="Cow.cs" />
     <Compile Include="Crocodile.cs" />
     <Compile Include="Date.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="Fish.cs" />
     <Compile Include="Hipo.cs" />
     <Compile Include="Iguana.cs" />
     <Compile Include="Labrador.cs" />
     <Compile Include="Mammal.cs" />
+    <Compile Include="Object.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

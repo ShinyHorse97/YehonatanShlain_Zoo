@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace YehonatanShlain_Zoo
 {
-    internal class Labrador : Mammal
+    internal class Labrador : Dog
     {
         private Person PersonToGuide;
         public Labrador(Person personToGuide)
-            : base(25, 2, "unknown labrador", "unknown", 1500, false, new Date(1, 1, 2000))
+            : base(0)
         {
             this.PersonToGuide = personToGuide;
         }
