@@ -46,6 +46,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="Bird.cs" />
     <Compile Include="Date.cs" />
+    <Compile Include="Fish.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
