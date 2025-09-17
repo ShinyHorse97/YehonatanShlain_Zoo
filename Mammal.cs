@@ -10,7 +10,8 @@ namespace YehonatanShlain_Zoo
     {
         private double CalInMilk;
         private int PregnancyDuration;
-        public Mammal(double CalInMilk, int PregnancyDuration, string name, string gender, double calories, bool predator, Date dateOfBirth) : base(name, gender, calories, predator, dateOfBirth)
+        public Mammal(double CalInMilk, int PregnancyDuration, string name, string gender, double calories, bool predator, Date dateOfBirth)
+            : base(name, gender, calories, predator, dateOfBirth)
         {
             this.CalInMilk = CalInMilk;
             this.PregnancyDuration = PregnancyDuration;
