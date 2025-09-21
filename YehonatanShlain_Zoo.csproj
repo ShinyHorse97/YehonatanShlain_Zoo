@@ -56,6 +56,7 @@
     <Compile Include="Labrador.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="Object.cs" />
+    <Compile Include="Park.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
