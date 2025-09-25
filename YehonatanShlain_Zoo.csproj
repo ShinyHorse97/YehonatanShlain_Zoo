@@ -53,10 +53,12 @@
     <Compile Include="Fish.cs" />
     <Compile Include="Hipo.cs" />
     <Compile Include="Iguana.cs" />
+    <Compile Include="IndustrialCow.cs" />
     <Compile Include="Labrador.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="Object.cs" />
     <Compile Include="Park.cs" />
+    <Compile Include="Parrot.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

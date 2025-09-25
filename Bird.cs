@@ -24,6 +24,15 @@ namespace YehonatanShlain_Zoo
         public void SetWingSpan(double wingSpan) { this.wingSpan = wingSpan; }
         public void SetCanFly(bool canFly) { this.canFly = canFly; }
         public void SetFlightAltitude(double flightAltitude) { FlightAltitude = flightAltitude; }
+        public string Sing()
+        {
+            return "Chirp chirp";
+        }
+        public void Dance()
+        {
+            Console.WriteLine("The bird is dancing");
+        }
+        public override double Eat() { return base.Eat() * 0.1; }
         public override string ToString()
         {
             return base.ToString() + ", Wing span: " + wingSpan + ", can fly: " + canFly + ", Flight altitude: " + FlightAltitude;

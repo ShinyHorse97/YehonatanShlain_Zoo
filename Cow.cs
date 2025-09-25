@@ -23,6 +23,7 @@ namespace YehonatanShlain_Zoo
         public void SetNumOfCalves(int numOfCalves) { NumOfCalves = numOfCalves; }
         public void SetMilkPerDay(int milkPerDay) { MilkPerDay = milkPerDay; }
         public void SetNumOfSpots(int numOfSpots) { NumOfSpots = numOfSpots; }
+        public override double Eat() { return base.Eat() * 0.25; }
         public override string ToString()
         {
             return base.ToString() + ", Number of calves: " + NumOfCalves + ", Milk per day: " + MilkPerDay + ", Number of spots: " + NumOfSpots;

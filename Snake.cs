@@ -16,6 +16,10 @@ namespace YehonatanShlain_Zoo
         }
         public bool GetIsPoisonous() { return IsPoisonous; }
         public void SetIsPoisonous(bool isPoisonous) { IsPoisonous = isPoisonous; }
+        public void Dance()
+        {
+            Console.WriteLine("The snake is dancing");
+        }
         public override string ToString()
         {
             return base.ToString() + "Is poisonous: " + IsPoisonous;

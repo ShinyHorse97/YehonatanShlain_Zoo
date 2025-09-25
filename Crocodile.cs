@@ -15,6 +15,7 @@ namespace YehonatanShlain_Zoo
         }
         public bool GetWentToDentist() { return WentToDentist; }
         public void SetWentToDentist(bool wentToDentist) { WentToDentist = wentToDentist; }
+        public override double Eat() { return base.Eat() * 0.5; }
         public override string ToString()
         {
             return base.ToString() + ", Went to dentist: " + WentToDentist;

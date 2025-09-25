@@ -20,6 +20,7 @@ namespace YehonatanShlain_Zoo
         public int GetPregnancyDuration() { return PregnancyDuration; }
         public void SetCalInMilk(double calInMilk) { CalInMilk = calInMilk; }
         public void SetPregnancyDuration(int pregnancyDuration) { PregnancyDuration = pregnancyDuration; }
+        public override double Eat() { return base.Eat() + CalInMilk; }
         public override string ToString()
         {
             return base.ToString() + ", Calories in milk: " + CalInMilk + ", Pregnancy duration: " + PregnancyDuration;

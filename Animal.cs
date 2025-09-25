@@ -29,6 +29,7 @@ namespace YehonatanShlain_Zoo
         public Date GetDateOfBirth() { return dateOfBirth; }
         public void SetName(string name) { this.name = name; }
         public void SetCalories(double calories) { this.calories = calories; }
+        public virtual double Eat() { return calories * 3; }
         public override string ToString()
         {
             return "name: " + name + ", gender: " + gender + ", Cal per meal: " + calories + ", predator: " + predator + ", date of birth: " + dateOfBirth.ToString() ;
